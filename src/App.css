@@ -1441,7 +1441,7 @@ align-items: flex-start;
 
   .imageView_one .imageView_one_content {
     width: 90.5vw;
-    height: 200px;
+    height: 300px;
     margin-left: 0;
     margin-top: -20px;
     padding: 40px 30px 0 30px;
@@ -1471,7 +1471,7 @@ align-items: flex-start;
 
   .imageView_two .imageView_two_content{
     width: 90.5vw;
-    height: 200px;
+    height: 300px;
     padding: 40px 30px 0px 30px;
     gap: 12px;
     flex-shrink: 0;
