@@ -21,9 +21,9 @@ function ImageViewOne() {
                     <div className="imageView_one_content_heading_two">Traditional Luxury to Coconest</div>
                 </div>
                 <p className="imageView_one_content_para"> All Villas at Coconest Eco Village are constructed using Eco friendly materials.  When you stay at coolest we wanted to give you a feel of living in a Traditional Village.</p>
-                <div className="imageView_one_button">
+                {/* <div className="imageView_one_button">
                     <div className="imageView_one_button_content">EXPLORE</div>
-                </div>
+                </div> */}
             </div>                
         </div>
         

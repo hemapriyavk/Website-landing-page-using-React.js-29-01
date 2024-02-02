@@ -19,7 +19,7 @@ function Cover() {
                         <p className="font_small">Exclusive 360&deg; farm view experience</p>
                         {/* <p className="font_small"></p> */}
                     </div>
-                    <button className="home_cover_text_button"><a href="https://cdn.illusiview.com/Arch4Foundation/index.htm" target="_blank" rel="noreferrer">Explore</a></button>
+                    <button className="home_cover_text_button"><a href="https://cdn.illusiview.com/Arch4Foundation/index.htm" target="_blank" rel="noreferrer">EXPLORE</a></button>
                 </div>
             </div>
         </div>

@@ -21,9 +21,9 @@ function ImageViewThree() {
                     <div className="imageView_one_content_heading_two">Adventure games at Coconest</div>
                 </div>
                 <p className="imageView_one_content_para"> Escape into a timeless oasis at Coconest, where the tranquility of adventures games to give you a memory of lifetime.</p>
-                <div className="imageView_one_button">
+                {/* <div className="imageView_one_button">
                     <div className="imageView_one_button_content">EXPLORE</div>
-                </div>
+                </div> */}
             </div>                
         </div>
         

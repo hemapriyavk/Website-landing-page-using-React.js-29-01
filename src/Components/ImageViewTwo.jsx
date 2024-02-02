@@ -11,9 +11,9 @@ function ImageViewTwo() {
                         <div className="imageView_two_content_heading_two">Wellness SPA at Coconest</div>
                     </div>
                     <p className="imageView_two_content_para">Enjoy the range of wellness therapies at Coconest.  Ranging from 1-hour Rejuvenation therapy, we have Rejuvenation programs for upto 10 days.</p>
-                    <div className="imageView_two_button">
+                    {/* <div className="imageView_two_button">
                         <div className="imageView_two_button_content">EXPLORE</div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="imageView_two_image_place">
                     <div className="imageView_two_image" />
