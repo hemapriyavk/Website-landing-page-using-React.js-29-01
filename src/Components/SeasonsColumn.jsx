@@ -1,32 +1,32 @@
-// // import HyphenIcon from "../assets/images/-.svg";
+// import HyphenIcon from "../assets/images/-.svg";
 
-// // function SeasonsColumn() {
-// //     return (
-// //       <>
-// //         <div className="seasonsColumn">
-// //             <div className="seasonsColumn_header">
-// //                 <div className="seasonsColumn_header_title">Seasons of Splendor</div>
-// //                 <div className="seasonsColumn_header_subtitle">
-// //                     <img src={HyphenIcon} className="seasonsColumn_header_subtitle_hyphen" alt="-" />
-// //                     <p className="seasonsColumn_header_subtitle_content">A Yearlong Tapestry of Indian Celebrations at Coconest Eco Resort.</p>
-// //                 </div>
-// //             </div>
+// function SeasonsColumn() {
+//     return (
+//       <>
+//         <div className="seasonsColumn">
+//             <div className="seasonsColumn_header">
+//                 <div className="seasonsColumn_header_title">Seasons of Splendor</div>
+//                 <div className="seasonsColumn_header_subtitle">
+//                     <img src={HyphenIcon} className="seasonsColumn_header_subtitle_hyphen" alt="-" />
+//                     <p className="seasonsColumn_header_subtitle_content">A Yearlong Tapestry of Indian Celebrations at Coconest Eco Resort.</p>
+//                 </div>
+//             </div>
 
-// //             <div className="seasonsColumn_body">
-// //                 <div className="seasonsColumn_row">
-// //                     <div className="seasonsColumn_column">
-// //                         <p className="seasonsColumn_column_heading">December</p>
-// //                         <ul className="seasonsColumn_column_content">
-// //                             <li>Christmas Celebration</li>
-// //                             <li>New Year&apos;s Eve Gala</li>
-// //                         </ul>
-// //                     </div>
-// //                     <div className="seasonsColumn_column">
-// //                         <p className="seasonsColumn_column_heading">January</p>
-// //                         <ul className="seasonsColumn_column_content">
-// //                             <li>New Year&apos;s Celebrations and Festivals</li>
-// //                             <li>Republic Day Celebration</li>
-// //                         </ul>
+//             <div className="seasonsColumn_body">
+//                 <div className="seasonsColumn_row">
+//                     <div className="seasonsColumn_column">
+//                         <p className="seasonsColumn_column_heading">December</p>
+//                         <ul className="seasonsColumn_column_content">
+//                             <li>Christmas Celebration</li>
+//                             <li>New Year&apos;s Eve Gala</li>
+//                         </ul>
+//                     </div>
+//                     <div className="seasonsColumn_column">
+//                         <p className="seasonsColumn_column_heading">January</p>
+//                         <ul className="seasonsColumn_column_content">
+//                             <li>New Year&apos;s Celebrations and Festivals</li>
+//                             <li>Republic Day Celebration</li>
+//                         </ul>
 //                     </div>
 //                     <div className="seasonsColumn_column">
 //                         <p className="seasonsColumn_column_heading">February</p>

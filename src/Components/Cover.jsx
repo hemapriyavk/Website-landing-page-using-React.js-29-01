@@ -13,11 +13,15 @@ function Cover() {
                     <div className="gradient"></div> */}
                 </div>
             </div>
-            {/* <div className="home_cover_text">
-                <p className="font_small">Welcome to</p>
-                <p className="font_big">COCONEST</p>
-                <p className="font_small">EXPERIENCE OF LIVING IN VILLAGE</p>
-            </div> */}
+            <div className="mask_page">
+                <div className="home_cover_text_page">
+                    <div className="home_cover_text">
+                        <p className="font_small">Exclusive 360&deg; farm view experience</p>
+                        {/* <p className="font_small"></p> */}
+                    </div>
+                    <button className="home_cover_text_button"><a href="https://cdn.illusiview.com/Arch4Foundation/index.htm" target="_blank" rel="noreferrer">Explore</a></button>
+                </div>
+            </div>
         </div>
         
         
