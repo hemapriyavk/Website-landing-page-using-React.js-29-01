@@ -202,31 +202,59 @@ button:hover{
   /* position: relative; */
 } 
 
+.video_page {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../src/assets/images/360_view.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+}
+
+
+/*
 .video_page{
   display: block;
   width: 100vw;
   height: 100vh;
-  /* position: relative; */
+  /* background-image: url(./assets/images/360\ view.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  /* position: relative; 
 }
 
 .video{
-  width: 100vw;
-  height: 880px;
+  background-image: url(./assets/images/360\ view.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 95vw;
+  /* height: 880px;
   flex-shrink: 0;
   background: radial-gradient(50% 70.71% at 50% 29.29%, rgba(0, 0, 0, 0.00) 86.58%, rgba(0, 0, 0, 0.21) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%);
-  background-blend-mode: normal, overlay;
-  pointer-events: none;
-}
-
-/* .gradient{
+  background-blend-mode: normal, overlay; 
+  
+} */
+/* 
+.gradient{
   position: absolute;
   top: 0;
   left: 0;
   width: 112vw;
   height: 896px;
   flex-shrink: 0;
+  z-index: 100;
+  pointer-events: auto;
   background: radial-gradient(82.31% 82.31% at 50% 17.69%, rgba(0, 0, 0, 0.00) 83.74%, rgba(0, 0, 0, 0.07) 100%);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px); 
 }  */
 
 .home_cover_text_page{
@@ -245,8 +273,8 @@ button:hover{
   box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.00);
   /* transform: translate(-50%, -50%); */
   z-index: 999;
-  background-color: #01070e;
-  opacity: 0.5;
+  background-color: rgb(1, 7, 14,0.2);
+  /* opacity: 0.5; */
   border-radius: 5px;
 }
 
@@ -276,6 +304,101 @@ button:hover{
   -webkit-text-fill-color: transparent; */
 }
 
+.home_cover_text_button{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.cta {
+  display: flex;
+  padding: 10px 45px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  color: white;
+  background: #C88C66;
+  transition: 1s;
+  box-shadow: 6px 6px 0 black;
+  transform: skewX(-15deg);
+}
+
+.cta:focus {
+ outline: none; 
+}
+
+.cta:hover {
+  transition: 0.5s;
+  box-shadow: 10px 10px 0 #FBC638;
+}
+
+.cta span:nth-child(2) {
+  transition: 0.5s;
+  margin-right: 0px;
+}
+
+.cta:hover  span:nth-child(2) {
+  transition: 0.5s;
+  margin-right: 45px;
+}
+
+span {
+  transform: skewX(15deg) 
+}
+
+span:nth-child(2) {
+  width: 20px;
+  margin-left: 30px;
+  position: relative;
+  top: 12%;
+}
+
+.rightArrow>svg{
+  width: 66px;
+  height: 43px;
+}
+
+/**************SVG****************/
+
+path.one {
+  transition: 0.4s;
+  transform: translateX(-60%);
+}
+
+path.two {
+  transition: 0.5s;
+  transform: translateX(-30%);
+}
+
+.cta:hover path.three {
+  animation: color_anim 1s infinite 0.2s;
+}
+
+.cta:hover path.one {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+
+.cta:hover path.two {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+
+/* SVG animations */
+
+@keyframes color_anim {
+  0% {
+      fill: white;
+  }
+  50% {
+      fill: #FBC638;
+  }
+  100% {
+      fill: white;
+  }
+}
+
+/*
 .home_cover_text_page>button{
   background: #C88C66;
   display: flex;
@@ -309,7 +432,7 @@ a:active{
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-}
+} */
 
 /* ----------------ImageSlider-------------------- */
 
@@ -1366,11 +1489,10 @@ align-items: flex-start;
 
   .video_page{
     height: 75vh;
+    background-image: url(../src/assets/images/360_mobile.png);
+    background-position: center;
   }
 
-  .video{
-    height: 100%;
-  }
 
   .home_cover_text_page{
     left: 25%;
@@ -1381,12 +1503,40 @@ align-items: flex-start;
     font-size: 10px;
   }
 
+  .cta{
+    padding: 0 5px;
+    font-size: 14px;
+    box-shadow: 2px 2px 0 black;
+    align-items: center;
+
+  }
+
+  .cta:hover{
+    box-shadow: 4px 4px 0 #FBC638;
+  }
+
+  .cta:hover  span:nth-child(2) {
+    margin-right: 5px;
+  }
+
+  span:nth-child(2) {
+    top: 30%;
+    margin-left: 5px;
+  }
+
+  .rightArrow>svg{
+    width: 33px;
+    height: 11px;
+  }
+
+
+/* 
   .home_cover_text_page>button{
     padding: 10px 15px;
     color: #FFF;
     font-size: 14px;
-    line-height: 20px; /* 142.857% */
-  }
+    line-height: 20px; /* 142.857% 
+  } */
   .image_slider_page{
     width: 100vw;
     padding-top: 40px;
